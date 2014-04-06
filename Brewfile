@@ -22,6 +22,7 @@ install boot2docker
 install reattach-to-user-namespace
 install php55 --with-pgsql --with-pdo-pgsql
 install php55-mcrypt php55-xdebug php55-opcache composer
+install go
 
 cask install dash
 cask install phpstorm
@@ -46,5 +47,6 @@ cask install coteditor
 cask install istat-menus
 cask install bartender
 cask install skype
+cask install xmind
 
 cask alfred link # for Alfred
