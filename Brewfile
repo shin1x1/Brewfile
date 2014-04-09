@@ -23,6 +23,7 @@ install reattach-to-user-namespace
 install php55 --with-pgsql --with-pdo-pgsql
 install php55-mcrypt php55-xdebug php55-opcache composer
 install go
+install hg
 
 cask install dash
 cask install phpstorm
