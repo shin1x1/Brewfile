@@ -48,5 +48,6 @@ cask install istat-menus
 cask install bartender
 cask install skype
 cask install xmind
+cask install flash-player
 
 cask alfred link # for Alfred
