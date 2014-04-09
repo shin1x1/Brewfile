@@ -18,6 +18,7 @@ install wget
 install curl
 install jq
 install vim
+install docker
 install boot2docker
 install reattach-to-user-namespace
 install php55 --with-pgsql --with-pdo-pgsql
