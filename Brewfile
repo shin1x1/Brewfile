@@ -25,6 +25,7 @@ install php55 --with-pgsql --with-pdo-pgsql
 install php55-mcrypt php55-xdebug php55-opcache composer
 install go
 install hg
+install awscli
 
 cask install dash
 cask install phpstorm
