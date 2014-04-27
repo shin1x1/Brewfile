@@ -27,6 +27,7 @@ install python
 install go
 install hg
 install awscli
+install npm
 
 cask install dash
 cask install phpstorm
