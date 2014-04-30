@@ -54,5 +54,6 @@ cask install bartender
 cask install skype
 cask install xmind
 cask install flash-player
+cask install heroku-toolbelt
 
 cask alfred link # for Alfred
