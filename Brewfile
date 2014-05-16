@@ -22,6 +22,7 @@ install docker
 install boot2docker
 install reattach-to-user-namespace
 install postgresql
+install mysql
 install php55 --with-pgsql --with-pdo-pgsql
 install php55-mcrypt php55-xdebug php55-opcache composer
 install python
