@@ -58,5 +58,6 @@ cask install xmind
 cask install flash-player
 cask install heroku-toolbelt
 cask install hipchat
+cask install atom
 
 cask alfred link # for Alfred
