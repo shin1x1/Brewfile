@@ -24,7 +24,7 @@ install reattach-to-user-namespace
 install postgresql
 install mysql
 install php55 --with-pgsql --with-pdo-pgsql
-install php55-mcrypt php55-xdebug php55-opcache composer
+install php55-mcrypt php55-xdebug php55-opcache php55-memcached php55-redis composer
 install python
 install go
 install hg
