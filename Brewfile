@@ -18,8 +18,6 @@ install wget
 install curl
 install jq
 install vim
-install docker
-install boot2docker
 install reattach-to-user-namespace
 install postgresql
 install mysql
