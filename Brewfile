@@ -28,6 +28,7 @@ install go
 install hg
 install awscli
 install npm
+install haskell-platform
 
 cask install dash
 cask install phpstorm
