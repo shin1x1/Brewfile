@@ -59,5 +59,6 @@ cask install flash-player
 cask install heroku-toolbelt
 cask install hipchat
 cask install atom
+cask install livereload
 
 cask alfred link # for Alfred
