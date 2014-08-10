@@ -5,7 +5,6 @@ tap homebrew/versions
 tap phinze/homebrew-cask
 tap homebrew/binary
 tap josegonzalez/php
-tap peco/peco
 
 install brew-cask
 install zsh
@@ -23,7 +22,7 @@ install reattach-to-user-namespace
 install postgresql
 install mysql
 install php55 --with-pgsql --with-pdo-pgsql --with-pdo-mysql
-install php55-mcrypt php55-xdebug php55-opcache php55-redis composer
+install php55-mcrypt php55-xdebug php55-opcache php55-redis composer php-cs-fixer
 install php55-memcached --with-sasl
 install phpunit phpunit-skeleton-generator
 install python
@@ -32,7 +31,6 @@ install hg
 install awscli
 install npm
 install haskell-platform
-install peco
 
 cask install dash
 cask install phpstorm
