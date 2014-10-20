@@ -1,66 +1,67 @@
-update
-upgrade
+#!/bin/sh
+brew update
+brew upgrade
 
-tap homebrew/versions
-tap phinze/homebrew-cask
-tap homebrew/binary
-tap josegonzalez/php
+brew tap homebrew/versions
+brew tap caskroom/homebrew-cask
+brew tap homebrew/binary
+brew tap josegonzalez/php
 
-install brew-cask
-install zsh
-install autojump
-install git
-install ctags
-install tmux
-install tig
-install ansible
-install boto
-install wget
-install curl
-install jq
-install vim
-install reattach-to-user-namespace
-install postgresql
-install mysql
-install php56 --with-pgsql --with-pdo-pgsql --with-pdo-mysql --enable-opcache
-install php56-mcrypt php56-xdebug php56-redis composer
-install php56-memcached --with-sasl
-install phpunit phpunit-skeleton-generator
-install python
-install go
-install hg
-install awscli
-install npm
+brew install brew-cask
+brew install zsh
+brew install autojump
+brew install git
+brew install ctags
+brew install tmux
+brew install tig
+brew install ansible
+brew install boto
+brew install wget
+brew install curl
+brew install jq
+brew install vim
+brew install reattach-to-user-namespace
+brew install postgresql
+brew install mysql
+brew install php56 --with-pgsql --with-pdo-pgsql --with-pdo-mysql --enable-opcache
+brew install php56-mcrypt php56-xdebug php56-redis composer
+brew install php56-memcached --with-sasl
+brew install phpunit phpunit-skeleton-generator
+brew install python
+brew install go
+brew install hg
+brew install awscli
+brew install npm
 
-cask install dash
-cask install phpstorm
-cask install iterm2
-cask install google-chrome
-cask install firefox
-cask install virtualbox
-cask install vagrant
-cask install kobito
-cask install alfred
-cask install dropbox
-cask install evernote
-cask install skitch
-cask install github
-cask install sequel-pro
-cask install lastpass-universal
-cask install openoffice
-cask install bettertouchtool
-cask install google-japanese-ime
-cask install the-unarchiver
-cask install coteditor
-cask install istat-menus
-cask install bartender
-cask install skype
-cask install xmind
-cask install flash-player
-cask install heroku-toolbelt
-cask install hipchat
-cask install atom
-cask install livereload
-cask install chefdk
+brew cask install dash
+brew cask install phpstorm
+brew cask install iterm2
+brew cask install google-chrome
+brew cask install firefox
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install kobito
+brew cask install alfred
+brew cask install dropbox
+brew cask install evernote
+brew cask install skitch
+brew cask install github
+brew cask install sequel-pro
+brew cask install lastpass-universal
+brew cask install openoffice
+brew cask install bettertouchtool
+brew cask install google-japanese-ime
+brew cask install the-unarchiver
+brew cask install coteditor
+brew cask install istat-menus
+brew cask install bartender
+brew cask install skype
+brew cask install xmind
+brew cask install flash-player
+brew cask install heroku-toolbelt
+brew cask install hipchat
+brew cask install atom
+brew cask install livereload
+brew cask install chefdk
 
-cask alfred link # for Alfred
+brew cask alfred link # for Alfred
