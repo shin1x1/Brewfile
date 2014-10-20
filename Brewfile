@@ -14,6 +14,7 @@ install ctags
 install tmux
 install tig
 install ansible
+install boto
 install wget
 install curl
 install jq
@@ -21,16 +22,15 @@ install vim
 install reattach-to-user-namespace
 install postgresql
 install mysql
-install php55 --with-pgsql --with-pdo-pgsql --with-pdo-mysql
-install php55-mcrypt php55-xdebug php55-opcache php55-redis composer php-cs-fixer
-install php55-memcached --with-sasl
+install php56 --with-pgsql --with-pdo-pgsql --with-pdo-mysql --enable-opcache
+install php56-mcrypt php56-xdebug php56-redis composer
+install php56-memcached --with-sasl
 install phpunit phpunit-skeleton-generator
 install python
 install go
 install hg
 install awscli
 install npm
-install haskell-platform
 
 cask install dash
 cask install phpstorm
@@ -61,5 +61,6 @@ cask install heroku-toolbelt
 cask install hipchat
 cask install atom
 cask install livereload
+cask install chefdk
 
 cask alfred link # for Alfred
