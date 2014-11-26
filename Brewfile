@@ -27,6 +27,7 @@ brew install php56 --with-pgsql --with-pdo-pgsql --with-pdo-mysql --enable-opcac
 brew install php56-mcrypt php56-xdebug php56-redis composer
 brew install php56-memcached --with-sasl
 brew install phpunit phpunit-skeleton-generator
+brew install ruby
 brew install python
 brew install go
 brew install hg
@@ -40,14 +41,13 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install virtualbox
 brew cask install vagrant
+brew cask install vagrant-manager
 brew cask install kobito
-brew cask install alfred
 brew cask install dropbox
 brew cask install evernote
 brew cask install skitch
 brew cask install github
 brew cask install sequel-pro
-brew cask install lastpass-universal
 brew cask install openoffice
 brew cask install bettertouchtool
 brew cask install google-japanese-ime
@@ -57,11 +57,8 @@ brew cask install istat-menus
 brew cask install bartender
 brew cask install skype
 brew cask install xmind
-brew cask install flash-player
 brew cask install heroku-toolbelt
 brew cask install hipchat
 brew cask install atom
 brew cask install livereload
 brew cask install chefdk
-
-brew cask alfred link # for Alfred
