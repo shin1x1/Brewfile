@@ -3,7 +3,7 @@
 ```
 $ git clone this_repo
 $ cd this_repo
-$ brew bundle
+$ ./Brewfile
 ```
 
 * Fabric
