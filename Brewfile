@@ -33,6 +33,7 @@ brew install go
 brew install hg
 brew install awscli
 brew install npm
+brew install tree
 
 brew cask install dash
 brew cask install phpstorm
