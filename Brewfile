@@ -33,6 +33,8 @@ brew install go
 brew install hg
 brew install awscli
 brew install npm
+brew install qcachegrind
+brew install graphviz
 
 brew cask install dash
 brew cask install phpstorm
