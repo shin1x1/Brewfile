@@ -35,6 +35,7 @@ brew install awscli
 brew install npm
 brew install qcachegrind
 brew install graphviz
+brew install tree
 
 brew cask install dash
 brew cask install phpstorm
