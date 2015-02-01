@@ -65,3 +65,4 @@ brew cask install hipchat
 brew cask install atom
 brew cask install livereload
 brew cask install chefdk
+brew cask install clipmenu
